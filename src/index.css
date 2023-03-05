@@ -29,4 +29,9 @@ body{
 
 .player-logo{
   height: 350px;
+  transition: transform 0.2s ;
+}
+
+.player-card:hover .player-logo{
+  transform: scale(0.95);
 }
